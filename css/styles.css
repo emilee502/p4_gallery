@@ -1,0 +1,122 @@
+body {
+  background: linear-gradient(to bottom, #F5FFF6 0%, #C2BCB7 100%) no-repeat center center fixed;
+  height: 100%;
+  min-width: 100%;
+  padding: auto 0;
+  margin: 0;
+  vertical-align: middle;
+  transition: all 1s; 
+    -o-transition: all 1s; 
+    -moz-transition: all 1s; 
+    -webkit-transition: all 1s;
+}
+
+th div:nth-child(1) {
+	width: 1360px;
+	width: 700px;
+	height: 100%;
+}
+
+div {
+	/*width: 300px;*/
+	/*height: 100%;*/
+	padding: 0;
+	/*background: url("../img/desk.JPG") fixed center no-repeat;*/
+	background-size: contain;
+	transition: all 2s; 
+	-o-transition: all 2s; 
+	-moz-transition: all 2s; 
+	-webkit-transition: all 2s;
+}
+
+div div:nth-child(1).bg {
+	width: 680px;
+	height: 100%;
+}
+
+.bg {
+	background: url("../img/desk.JPG") fixed left no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin-left: 0;
+	z-index: -100;
+	height: 100%;
+}
+
+h1 {
+	padding-top: 400px;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 100px;
+}
+
+ul {
+  text-align: center;
+  padding: 0;
+  margin: 30px auto;
+  width: 513px;
+  transition: all 2s; 
+    -o-transition: all 2s; 
+    -moz-transition: all 2s; 
+    -webkit-transition: all 2s;
+}
+
+li {
+  display: inline;
+  text-align: center;
+  font-family: 'Nothing You Could Do', cursive;
+  color: white;
+  transition: all 1s; 
+    -o-transition: all 1s; 
+    -moz-transition: all 1s; 
+    -webkit-transition: all 1s;
+}
+
+tr th:nth-child(1) a:link,
+tr th:nth-child(1) a:visited,
+tr th:nth-child(1) a:hover,
+tr th:nth-child(1) a:active {
+  color: white;
+  font-size: 30px;
+  padding: 10px 25px;
+  text-decoration: none;
+  transition: all 2s; 
+    -o-transition: all 2s; 
+    -moz-transition: all 2s; 
+    -webkit-transition: all 2s;
+}
+
+table {
+	position: absolute;
+	height: 50%;
+	width: 30%;
+	top: 50%;
+	border-spacing: 0;
+	padding-top: 0;
+	padding-bottom: 0; 
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+img {
+	width: 500px;
+	height: 500px;
+}
+
+th {
+	padding: 0 10px;
+	border: 0;
+	border-spacing: 0;
+}
+
+td {
+  height: 10px;
+}
